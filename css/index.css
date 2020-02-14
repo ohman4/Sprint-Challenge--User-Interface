@@ -258,6 +258,7 @@ footer nav a {
 .bigabout{
     border-bottom: 1px dashed black;
     margin-bottom: 3%;
+    margin-left: 2%;
 }
 .topabout{
     margin-left: 3%;
@@ -305,9 +306,22 @@ button{
   border: 2px solid black;
   border-radius: 10px;
   margin-top: 3%;
+  
+
+}
+button:hover{
+    animation-name: buttonhover;
+  animation-duration: 4s;
+  transform: rotate(20deg);
 
 }
 
 .together{
     margin: 0 0 4% 2% ;
 }
+
+@keyframes buttonhover {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
