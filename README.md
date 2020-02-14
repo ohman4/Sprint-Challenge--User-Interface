@@ -38,6 +38,9 @@ It gives you elements meaning. Like when you move to a new home. Instead of 100 
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
+Block-It starts on a new line, and takes up the whole width
+Inline-can be nested inside of other elements without disrupting the flow of content.
+
 3. What are the 4 areas of the box model?
 
 content, padding, border, margin
